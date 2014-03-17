@@ -17,5 +17,7 @@ mvn compile exec:java -Dexec.mainClass=henry416.jpa.StudentTest
 
 This will test CRUD operations (Create, Read, Update, Delete) on a student object, and persist on a table test1.student of a localized embedded derby database, and display the results accordingly.
 
-3) show-derby.sh
-This allows you to query derby database to see the result.
+Prerequisites
+=============
+
+mavern 2
